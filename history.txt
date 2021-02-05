@@ -1,0 +1,207 @@
+    1  ls
+    2  ls /data
+    3  ls data
+    4  ls /home
+    5  ls
+    6  ls /
+    7  pwd
+    8  mkdir Learning_unix
+    9  ls
+   10  pwd
+   11  cd Learning
+   12  cd 
+   13  cd Learning_unix
+   14  ls
+   15  pwd
+   16  ls/
+   17  ls /
+   18  cd
+   19  pwd
+   20  ls
+   21  mkdir Outer_directory
+   22  cd Outer_directory
+   23  mkdir Inner_directory
+   24  cd Inner_directory
+   25  cd /
+   26  cd home
+   27  cd ubuntu
+   28  cd judlynjude
+   29  cd /home/judlynjude
+   30  cd Inner_directory
+   31  cd Outer_directory
+   32  cd Inner_directory
+   33  ..
+   34  cd ..
+   35  cd 
+   36  cd ..
+   37  cd..
+   38  ls
+   39  judejudlyn
+   40  pwd
+   41  cd /
+   42  cd ~
+   43  cd
+   44  pwd
+   45  cd
+   46  ls
+   47  cd ~/Outer_directory
+   48  cd
+   49  ls ../../
+   50  ls -l /home
+   51  man ls
+   52  ls -d
+   53  cd
+   54  ls -d
+   55  man ls
+   56  ls d
+   57  ls -d
+   58  man ls
+   59  ls
+   60  cd Learning_unix
+   61  rmdir
+   62  ls
+   63  cd
+   64  rmdir Learning_unix
+   65  ls
+   66  rmdir Outer_directory
+   67  cd Outer_directory
+   68  ls
+   69  rmdir Inner_directory
+   70  ls
+   71  cd
+   72  ls
+   73  rmdir Outer_directory
+   74  ls
+   75  sss
+   76  cd
+   77  mkdir Learning_unix
+   78  ls
+   79  cd Learning_unix/
+   80  cd
+   81  ls
+   82  cd
+   83  ls
+   84  rmdir git-basic-exercise
+   85  cd
+   86  ls
+   87  cd
+   88  rmdir git-basic-exercises
+   89  cd git-basic-exercises/
+   90  ls
+   91  cd
+   92  ls
+   93  cd git-basic-exercises/
+   94  ls
+   95  git rm milkshakes.md 
+   96  -f
+   97  ls
+   98  git -f milkshakes.md
+   99  git rm -f milkshakes.md
+  100  ls
+  101  git rm -f README.md 
+  102  ls
+  103  cd
+  104  ls
+  105  git rm git-basic-exercises/
+  106  git rmdir git-basic-exercises/
+  107  rmdir git-basic-exercises/
+  108  ls
+  109  rmdir git-basic-exercises/
+  110  cd
+  111  rmdir git-basic-exercises/
+  112  cd git-basic-exercises/
+  113  rmdir
+  114  cd
+  115  ls
+  116  rmdir git-basic-exercises/
+  117  cd 
+  118  git rm -r git-basic-exercises/
+  119  ls
+  120  cd git-basic-exercises/
+  121  ls
+  122  cd
+  123  ls
+  124  git rm -rf git-basic-exercises/
+  125  git rm -rf git-basic-exercises
+  126  cd
+  127  rmdir git-basic-exercises/
+  128  cd
+  129  las
+  130  ls
+  131  rm -rfv git-basic-exercises
+  132  cd
+  133  ls
+  134  cd
+  135  mkdir git-basic-exercises
+  136  cd git-basic-exercises/
+  137  ls -a
+  138  git init
+  139  ls -a
+  140  git status
+  141  touch README.md
+  142  ls -a
+  143  git status
+  144  git log
+  145  git add README.md
+  146  git status
+  147  git reset README.md
+  148  git status
+  149  git add README.md 
+  150  git status
+  151  git commit -m "initial commit"
+  152  git log
+  153  q
+  154  ls
+  155  nano README.md
+  156  cat README.md 
+  157  git status
+  158  git commit -m "second commit"
+  159  git log
+  160  git add README.md 
+  161  git status
+  162  git commit -m "second commit"
+  163  git log
+  164  nano README.md
+  165  cat README.md 
+  166  git status
+  167  git commit -m "third commit"
+  168  git add README.md
+  169  git commit -m "third commit"
+  170  git status
+  171  git log
+  172  wq
+  173  ls
+  174  cat README.md 
+  175  ls
+  176  q
+  177  git checkout cfe4df3ac0cac59c3ff97aed042c00f7a4be7f57
+  178  git checkout main
+  179  git checkout master
+  180  cat README.md
+  181  git checkout cfe4df3ac0cac59c3ff97aed042c00f7a4be7f57
+  182  cat README.md
+  183  git checkout master
+  184  cat README.md
+  185  git branch
+  186  git branch milkshake-flavours
+  187  git branch
+  188  git checkout
+  189  git branch
+  190  git checkout milkshake-flavours 
+  191  git branch
+  192  nano milkshakes.md
+  193  git status
+  194  git commit -m "added initial flavours"
+  195  git add milkshakes.md
+  196  git commit -m "added initial flavours"
+  197  git status
+  198  git log
+  199  git checkout main
+  200  git checkout master
+  201  git branch
+  202  git branch history
+  203  git branch
+  204  git checkout history
+  205  git log
+  206  git branch
+  207  history > history.txt
